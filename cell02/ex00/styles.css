@@ -1,0 +1,22 @@
+.responsivo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+table {
+    border-collapse: collapse;
+    width: 100vw;
+    height:100vh;
+}
+tr, td {
+    border: 1px solid black;
+    text-align: center;
+}
+.cell1 {
+    background-color: #FFD700; 
+}
+.cell2 {
+    background-color: #4682B4; 
+}
+

@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.card {
+    width: 300px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.title {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.photo {
+    text-align: center;
+    padding: 20px;
+}
+
+.photo img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.info {
+    text-align: center;
+    padding: 10px;
+}
+
+.info .name {
+    font-size: 24px;
+    color: #000;
+}
+
+.info .level {
+    font-size: 16px;
+    color: #808080;
+}
+
+.info .location {
+    font-size: 18px;
+    color: #000;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.logos img {
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.contact {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
